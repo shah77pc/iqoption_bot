@@ -208,7 +208,7 @@ def scaler(iq, df):
 	train_y = np.asarray(train_y)
 	validation_y = np.asarray(validation_y)
 	LEARNING_RATE = 0.001
-	EPOCHS = 20
+	EPOCHS = 150
 	BATCH_SIZE = 16 
 	tf.keras.callbacks.EarlyStopping(monitor='loss', patience=3)
 	model = Sequential()
