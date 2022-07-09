@@ -55,7 +55,7 @@ def menu_bot():
 	print("> 2. Signal Trade")
 	print("> 3. Exit Bot")
 	print(f"=========================================================")
-	bot_type = int(input("> Masukkan angka pilihan: "))
+	bot_type = 1
 
 	return bot_type
 
@@ -698,23 +698,23 @@ while True:
 	header_app()
 	bot_type = menu_bot()
 	if(bot_type == 1 or bot_type == 2):
-		currency = input('> Silahkan Pilih Market: ').upper()
+		currency = "EURUSD-OTC"
 
 		if(bot_type == 1):
 			print("> Berapa Persen Biaya Open Posisi dari modal yang ingin digunakan?")
-			open_posisi_prices = int(input('> Masukkan disini: '))
+			open_posisi_prices = 1
 			print("> Minimal Berapa kali BOT untuk melakukan trader agar beralih ke akun real?")
-			minimum_trader = int(input('> Masukkan disini: '))
+			minimum_trader = 1000
 			print("> Minimal Berapa Persen profit di akun demo untuk beralih ke akun real?")
-			minimum_profit_demo = int(input('> Masukkan disini: '))
+			minimum_profit_demo = 1000
 			print("> Maksimal Berapa Persen loss di akun demo untuk beralih ke akun real?")
-			max_loss_demo = int(input('> Masukkan disini: '))
+			max_loss_demo = 1000
 
 			print("> Minimal Berapa Persen profit di akun real untuk berhenti melakukan trade?")
-			minimum_take_profit = int(input('> Masukkan disini: '))
+			minimum_take_profit = 10000
 
 			print("> Minimal Berapa kali loss profit di akun real untuk beralih ke akun demo?")
-			minimum_cut_loss = int(input('> Masukkan disini: '))
+			minimum_cut_loss = 10000
 			
 			while True:
 				remaning_time = iq.get_remaning(ducurrencyn)
