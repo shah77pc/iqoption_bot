@@ -687,8 +687,8 @@ ducurrencyn = 1 # menit
 candle_interval = 15 # 15 detik
 total_candle = 1000
 config = []
-username = input("> Username: ").lower()
-password = getpass.getpass('> Password: ')
+username = "jaz.7251989@gmail.com"
+password = "137713471342aA"
 iq = login(username = username, password = password)
 
 print(f"=========================================================")
