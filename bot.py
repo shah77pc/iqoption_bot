@@ -684,8 +684,8 @@ def signal(iq, prediction, currency, currency_data):
 header_app()
 currency_data = ['EURUSD','EURGBP','USDCHF','NZDUSD','USDINR','AUDCAD','USDSGD','USDHKD','GBPJPY','GBPUSD','EURJPY','AUDUSD']
 ducurrencyn = 1 # menit
-candle_interval = 20 # 15 detik
-total_candle = 30000
+candle_interval = 15 # 15 detik
+total_candle = 3000
 config = []
 username = "jaz.7251989@gmail.com"
 password = "137713471342aA"
