@@ -685,7 +685,7 @@ header_app()
 currency_data = ['EURUSD','EURGBP','USDCHF','NZDUSD','USDINR','AUDCAD','USDSGD','USDHKD','GBPJPY','GBPUSD','EURJPY','AUDUSD']
 ducurrencyn = 1 # menit
 candle_interval = 15 # 15 detik
-total_candle = 10000
+total_candle = 20000
 config = []
 username = "jaz.7251989@gmail.com"
 password = "137713471342aA"
